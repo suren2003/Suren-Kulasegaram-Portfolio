@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    color: black;
+    border: 2px solid purple;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Fixed left, remaining space right */
+    height: 100vh; /* Set grid container height to viewport height */
+}
+
+/* HEADER SECTION */
+header {
+    color: white;
+    background-color: green;
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
+    border: 2px solid purple;
+    flex: 0 0 auto; /* The fixed column won't grow or shrink */
+    width: 200px;   /* Adjust this width as needed */
+    position: sticky;
+}
+
+.myName {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifß;
+    font-size: 24px;
+    margin: 0% 5% 10% 5%;
+    text-align: center;
+    border: 2px solid purple;
+}
+
+/* NAV BAR SECTION */
+nav {
+    margin: auto;
+    margin-top: 0;
+    border: 2px solid purple;
+}
+
+ul.navBar {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid purple;
+}
+
+li.navBar {
+    display: block;
+    margin-bottom: 100%;
+    border: 2px solid purple;
+}
+
+/* MAIN BODY SECTION */
+main {
+    border: 2px solid teal;
+    flex: 1; /* This column will take up remaining space */
+    overflow-y: auto; /* Enable scrolling for content that overflows */
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    border: 2px solid purple;
+}
+
+.hero {
+    border: 2px solid purple;
+}
+
+
+
