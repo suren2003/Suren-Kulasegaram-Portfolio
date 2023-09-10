@@ -52,6 +52,10 @@ li.navBar {
     border: 2px solid purple;
 }
 
+li.navBar:hover {
+    background-color: #016420; /* Change background color when clicked */
+}
+
 /* MAIN BODY SECTION */
 main {
     border: 2px solid teal;
@@ -70,5 +74,26 @@ main {
     border: 2px solid purple;
 }
 
+/* ABOUT SECTION */
+.about-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+}
 
+.about-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+    background-color: #8a8a8a; /* Background color */
+    margin-bottom: 25px;
+    border-radius: 10px;
+    width: 70vh; /* Adjust the width as needed */
+    height: 15vh; /* Adjust the height as needed */
+}
+
+.about-item:hover {
+    background-color: #bdbdbd; /* Change background color when clicked */
+}
 
