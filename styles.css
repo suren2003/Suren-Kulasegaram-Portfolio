@@ -158,6 +158,7 @@ main {
 #socials {
     list-style-type: none;
     text-align: center;
+    align-content: center;
 }
 
 #socials li {
@@ -170,6 +171,8 @@ main {
 }
 
 .logos {
+    display: inline-block;
+    vertical-align: middle;
     width: 5%;
     height: 5%;
 }
