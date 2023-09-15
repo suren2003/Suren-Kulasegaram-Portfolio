@@ -99,7 +99,7 @@ main {
 }
 
 
-/* modal styles for about section */
+/* --MODAL STYLING-- */
 .modal {
     display: none;
     position: fixed;
@@ -120,7 +120,7 @@ main {
 }
 
 /* modal close button */
-/* position */
+/* general position */
 .close {
     cursor: pointer;
     position: absolute;
@@ -129,7 +129,7 @@ main {
     right: 10px; 
 }
     
-/* design */
+/* general design */
 #closeModalBtn {
     display: inline-block;
     outline: 0;
@@ -155,6 +155,7 @@ main {
         transition-duration: 0.1s;
 }
 
+/* contact & resume */
 #socials {
     list-style-type: none;
     text-align: center;
@@ -177,5 +178,115 @@ main {
     height: 5%;
 }
 
+/* skills -> languages */
+.languages-list {
+    display: grid;
+    grid-template-columns: repeat(8, 9vh);
+    list-style: none;
+}
+
+.languages-item {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+    background-color: #8a8a8a; /* Background color */
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+    width: 8vh; /* Adjust the width as needed */
+    height: 2vh; /* Adjust the height as needed */
+}
+
+.languages-item:hover {
+    opacity: 0.8; /* Change background color when clicked */
+    transition-duration: 0.1s;
+}
+
+/* skills -> tools and frameworks */
+.tools-list {
+    display: grid;
+    grid-template-columns: repeat(5, 9vh);
+    list-style: none;
+}
+
+.tools-item {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+    background-color: #8a8a8a; /* Background color */
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+    width: 8vh; /* Adjust the width as needed */
+    height: 2vh; /* Adjust the height as needed */
+}
+
+.tools-item:hover {
+    opacity: 0.8; /* Change background color when clicked */
+    transition-duration: 0.1s;
+}
+
+/* skills -> soft skills */
+.softSkill-list {
+    display: grid;
+    grid-template-columns: repeat(4, 14vh);
+    list-style: none;
+}
+
+.softSkill-item {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+    background-color: #8a8a8a; /* Background color */
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+    width: 13vh; /* Adjust the width as needed */
+    height: 2vh; /* Adjust the height as needed */
+}
+
+.softSkill-item:hover {
+    opacity: 0.8; /* Change background color when clicked */
+    transition-duration: 0.1s;
+}
+
+/* experience content */
+.experience-item {
+    margin-bottom: 40px;
+}
+.experience-header {
+    display: flex;
+    justify-content: space-between; /* Pushes the plus sign to the right */
+    align-items: center; /* Vertically centers header text and plus sign */
+}
+  
+  .experience-content {
+    display: none;
+}
+
+/* Add styling for the dropdown icon */
+.dropdown-icon {
+    width: 24px;
+    height: 24px;
+    order: 2;
+    cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 24px;
+    user-select: none;
+}
+
+
+  
 
 
