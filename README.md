@@ -1,0 +1,1 @@
+I was initially building my site in this repo, but chose to learn and build it with React and made another repo. The link to the site based off this repo is still in resumes so I am keeping this around to just redirect to my new page.
